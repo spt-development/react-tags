@@ -52,7 +52,6 @@ describe('Test ReactTags', () => {
       resetInputOnDelete: true,
       autocomplete: false,
       readOnly: false,
-      allowDragDrop: true,
       ...defaults,
       allowUnique: true,
     };

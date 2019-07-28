@@ -162,7 +162,7 @@ Option | Type | Default | Description
 |[`inline`](#inline) | `Boolean` | `true` | Render input field and selected tags in-line
 |[`inputFieldPosition`](#inputFieldPosition) | `String` | `inline` | Specify position of input field relative to tags
 |[`allowUnique`](#allowUnique) | `Boolean` | `true` | Boolean value to control whether tags should be unqiue
-|[`allowDragDrop`](#allowDragDrop) | `Boolean` | `true` | Boolean value to control whether tags should have drag-n-drop features enabled
+|[~~allowDragDrop~~](#allowDragDrop) | ~~Boolean~~ | ~~true~~ | ~~Boolean value to control whether tags should have drag-n-drop features enabled~~ Removed this property so that react-dnd and react-dnd-html5-backend could be removed as peer dependencies.
 |[`renderSuggestion`](#renderSuggestion) | `Function` | `undefined` | Render prop for rendering your own suggestions
 
 <a name="tagsOption"></a>
